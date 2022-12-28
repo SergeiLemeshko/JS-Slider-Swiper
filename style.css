@@ -36,7 +36,8 @@ html,body{
 text-align: center;
 }
 .swiper-slide__image img {
-max-width: 100%;
+	/* background-size: contain; */
+	max-width: 100%;
 }
 .header {
 	position: fixed;
@@ -79,5 +80,34 @@ li:last-child {
 .swiper .swiper-button-next::after {
 color: rgb(78, 105, 86);
 font-size: 100px;
+}
+/* Пагинация */
+.swiper .swiper-pagination {
+	bottom: 0;
+}
+/* Буллеты */
+.swiper .swiper-pagination-bullet {
+	width: 30px;
+	height: 30px;
+	line-height: 20px;
+	font-size: 15px;
+	background-color: #fff;
+}
+/* Фракция */
+.swiper .swiper-pagination-fraction{
+	font-size: 20px;
+	color: #fff;
+}
+.swiper .swiper-pagination-progressbar-fill {
+	background-color: rgb(236, 85, 26);
+}
+/* Скролл */
+.swiper .swiper-scrollbar-drag {
+	cursor: pointer;
+	background-color: rgb(165, 78, 78);
+}
+/* Автоширина */
+.swiper .swiper-slide {
+	width: auto;
 }
 
