@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<title>Slider</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<section class="header">
+			<div class="header__container">
+				<h1 class="header__logo">Logo</h1>
+				<nav class="header__menu">
+					<ul>
+						<li>One</li>
+						<li>Two</li>
+						<li>Three</li>
+						<li>Four</li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+		<!-- Основной контейнер слайдера -->
+		<div class="swiper">
+			<!-- Дополнительная необходимая обертка -->
+			<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide">
+					<div class="swiper-slide__image">
+						<img src="img/slide-1.jpg" alt="Картинка 1">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="swiper-slide__image">
+						<img src="img/slide-2.jpg" alt="Картинка 2">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="swiper-slide__image">
+						<img src="img/slide-3.jpg" alt="Картинка 3">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="swiper-slide__image">
+						<img src="img/slide-4.jpg" alt="Картинка 4">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="swiper-slide__image">
+						<img src="img/slide-5.jpg" alt="Картинка 5">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="swiper-slide__image">
+						<img src="img/slide-6.jpg" alt="Картинка 6">
+					</div>
+				</div>
+			</div>
+			<!-- Если нам нужна нумерация страниц -->
+			<div class="swiper-pagination"></div>
+
+			<!-- Если нам нужны кнопки навигации -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+			<!-- Если нам нужна полоса прокрутки -->
+			<div class="swiper-scrollbar"></div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="/script.js"></script>
+</body>
+
+</html>
