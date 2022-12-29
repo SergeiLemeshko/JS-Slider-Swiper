@@ -30,8 +30,6 @@ html,body{
 	height: 100vh;
  }
 
- .wrapper {
-}
 .swiper-slide {
 text-align: center;
 }
@@ -58,15 +56,9 @@ text-align: center;
 	font-size: 4em;
 	
 }
-.header__menu {
-
-
-}
 ul {
 	display: flex;
 	list-style: none;
-	
-
 }
 li {
 	padding-right: 30px;
@@ -75,7 +67,6 @@ li {
 li:last-child {
 	padding-right: 0px;
 }
-
 .swiper .swiper-button-prev::after,
 .swiper .swiper-button-next::after {
 color: rgb(78, 105, 86);
@@ -110,4 +101,25 @@ font-size: 100px;
 .swiper .swiper-slide {
 	width: auto;
 }
+/* Мультирядность */
+/* .swiper-slide {
+	height: 700px;
+}
+.swiper .swiper-slide {
+height: calc((100% - 30px) / 2);
+overflow: hidden;
+} */
+
+/* Вертикальный слайдер */
+/* .swiper-slide {
+	padding: 0px 0 0px 0;
+	height: 700px;
+} */
+
+/* Эффект куб */
+/* .swiper-slide {
+	width: 700px;
+} */
+
+
 
